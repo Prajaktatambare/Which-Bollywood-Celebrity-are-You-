@@ -5,6 +5,7 @@
 This project leverages pre-trained deep learning models and facial recognition techniques to extract features from an uploaded image and compare them against a database of Bollywood celebrities. The goal is to find the closest match and display the name and image of the predicted celebrity.
 
 To run this project successfully, make sure you have the following Python packages installed.
+
 ⦁	!pip install mtcnn==0.1.0 
 
 ⦁	!pip install tensorflow==2.3.1
