@@ -21,18 +21,27 @@ To run the project, open your terminal or command prompt, navigate to the projec
 **FEATURES**
 
 ⦁	Upload your image and find out which Bollywood celebrity you look like
+
 ⦁	Uses VGGFace for feature extraction
+
 ⦁	Compares your facial features with a curated dataset of Bollywood celebrity images
+
 ⦁	Fun, interactive UI built using Streamlit
 
 **TECHNOLOGY USED**
 
 ⦁	Python
+
 ⦁	TensorFlow / Keras
+
 ⦁	OpenCV
+
 ⦁	Keras VGGFace
+
 ⦁	Streamlit
+
 ⦁	NumPy, Pandas
+
 ⦁	Pickle (for saving precomputed embeddings)
 
 
@@ -41,18 +50,28 @@ To run the project, open your terminal or command prompt, navigate to the projec
 📁 bollywood-celebrity-predictor
 
 ⦁	Data/                   # Contains subfolders of celebrity images
+
 ⦁	embeddings/             # Stores precomputed facial embeddings
+
 ⦁	app.py                  # Streamlit application file
+
 ⦁	feature_extractor.py    # Script to extract features from images
+
 ⦁	test.py                 # Test script to validate predictions
+
 ⦁	filenames.pkl           # Pickled list of image file paths
+
 ⦁	embeddings.pkl          # Pickled array of face embeddings
+
 ⦁	requirements.txt        # Python dependencies
 
 
 **How It Works**
 
 ⦁	Upload your image through the app.
+
 ⦁	The app detects your face and extracts features using the VGGFace model.
+
 ⦁	It then compares your facial features with those of Bollywood celebrities using cosine similarity.
+
 ⦁	The closest match is shown along with the celebrity’s name and image.
